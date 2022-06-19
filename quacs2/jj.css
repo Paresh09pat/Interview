@@ -1,0 +1,156 @@
+.aa{
+    width: 30%;
+    margin-left: 15%;
+    height: 200px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 30%;
+    margin-left: 10%;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+  }
+  
+  
+  .grid-containe {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 30%;
+    margin-left: 10%;
+  }
+  
+  .grid-containe > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .ite1 {
+    grid-row: 1 / span 2;
+  }
+
+  .ss{
+    border: 1px solid black;
+    width: 36%;
+    margin-left: 32%;
+    text-align: center;
+    background-color: rgb(218, 25, 54);
+    color: white;
+    border-radius: 10px;
+  }
+
+  a:link{
+   color: white;
+  }
+
+  a:visited{
+    color: white;
+  }
+
+  a:hover{
+    color: red;
+  }
+
+  a:active{
+    color: pink;
+  }
+
+  .gg{
+    width: 20%;
+    height: 5%;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: seagreen;
+    color: white;
+  }
+
+  .gg:hover{
+    background-color: aqua;
+  }
+
+  .font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 10%;
+  }
+
+  .pp{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    background-color: goldenrod;
+    text-align: center;
+    transition-duration: 2s;
+    margin-left: 10%;
+  }
+
+  .pp:hover{
+    width: 400px;
+    background-color:deeppink;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    border-radius: 50px;
+   text-align: center;
+  }
+
+  .circle{
+    width: 250px ;
+    height: 250px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin-left: 10%;
+  }
+
+  .mq{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+    height: 10%;
+    background-color: aquamarine;
+    text-align: center;
+  }
+
+  @media screen and (max-width:768px){
+    .mq{
+      background-color: coral;
+      width: 50%;
+      margin-left: 25%;
+      border-radius: 20px;
+      text-align: center;
+    }
+  }
+
+  .ani{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation: rot 1s infinite ;
+    animation-direction:normal;
+    background-color: darksalmon;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+
+  @keyframes rot{
+    100%{
+      transform: rotate(360deg)
+    }
+  }

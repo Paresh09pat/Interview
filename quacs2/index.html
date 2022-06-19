@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="jj.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1> 8. What is box sizing ?</h1>
+
+    Ans. <br>
+    The CSS box-sizing property allows us to include the padding and border in an element's total width and height. <br>
+    This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and padding are added to the element's specified width/height).
+
+
+    <h1> 9. What is animation delay ?</h1>
+
+    Ans. <br>
+    The animation-delay is CSS property which specifies the amount of time to wait from applying the animation to an element before beginning to perform the animation. <br>
+    The animation-delay value is defined in seconds (s) or milliseconds (ms).
+
+
+    <h1> 10. Which property you will use to merge cells vertically in grid ? </h1>
+
+    Ans. <br>
+    CSS grid-column Property is use to merge cells vertically in grid. <br>
+    This property is a shorthand property for the grid-column-start and grid-column-end properties. <br> <br>
+    Ex. grid-column: 1 / span 2  <br><br>
+
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>  
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+    </div>
+<br>
+
+    <h1> 11. Which property you will use to merge cells horizontally in grid </h1>
+    Ans. <br>
+    Use the grid-row property to specify on which row to place an item, and how many row the item will span. <br>
+    This property is a shorthand property for the grid-row-start and grid-row-end properties. <br> <br>
+    Ex. grid-row: 1 / span 2  <br><br>
+
+    <div class="grid-containe">
+        <div class="ite1">1</div>
+        <div class="ite2">2</div>
+        <div class="ite3">3</div>  
+        <div class="ite4">4</div>
+        <div class="ite5">5</div>
+        <div class="ite6">6</div>
+        <div class="ite7">7</div>
+    </div>
+
+
+
+    <h1> 12. Explain CSS box model</h1>
+
+    Ans. <br>
+    In CSS, the term "box model" is used when talking about design and layout. <br>
+    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. <br> <br>
+    Content - The content of the box, where text and images appear <br>
+    Padding - Clears an area around the content. The padding is transparent <br>
+    Border - A border that goes around the padding and content <br>
+    Margin - Clears an area outside the border. The margin is transparent <br><br>
+
+    Ex. <br>
+    <img class="aa" src="data:image/png;base64,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" alt="">
+
+
+    <h1> 13. What is the difference between display none and visibility hidden ?</h1>
+    Ans. <br>
+    1) visibility:hidden- It is not visible but gets up its original space. <br>
+    display:none- It is hidden and takes no space.
+
+<br><br>
+
+<h1 class="ss">CSS IMPLEMENTATION EASY</h1>
+
+
+<h1> 1. Replicate the button on masthead of Prepbytes</h1> <br>
+
+Ans. <br>
+<button class="gg"> 
+    <a href=" https://www.prepbytes.com/" alt="Error"> Enroll Here </a>
+</button>
+
+
+<h1> 2. Write a text and add any google font</h1>
+
+Ans. <br>
+<span class="font"> Hello Prepbytes! </span>
+
+
+<h1> 3. Crate a box and increase its width on hover, add transition on hover</h1> 
+
+Ans. <br> <br>
+
+<div class="pp"> Width Change on hover</div>
+
+
+<h1> 4. Create a circle using border radius</h1>
+
+Ans. <br> <br>
+
+<div class="circle"></div>
+
+
+<h1> 5. Write a code to show implementation of media quaries</h1>
+
+Ans. <br>
+
+<div class="mq">
+     Media query  <br>
+     When screen size goes below the 768px it <br>
+     changes its background color and width. 
+</div>
+
+
+<h1> 6. Write code to show any animation example </h1>
+
+Ans. <br>
+
+<div class="ani"></div>
+
+</body>
