@@ -1,0 +1,158 @@
+.bb{
+    width: 20%;
+    margin-left: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(https://www.bing.com/th?id=OIP.avxhtQqr5FoubGjq4sIXugHaEo&w=155&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2);
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.bb1{
+    margin-left: 45%;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.cc{
+display:flex;
+width: 100%;
+background-color: aquamarine;
+}
+
+.cc1{
+margin-left: 55%;
+padding-top: 5px;
+}
+
+.cc2{
+    height: 30px;
+    width: 70px;
+}
+
+
+
+.ff{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ff div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.gg{
+    display: flex;
+    background-color: darkgrey;
+}
+
+.gg div{
+    margin: 20px;
+    background-color: ;
+}
+
+@media screen and (max-width:768px) {
+    .gg{
+        display: block;
+    }
+
+    .gg1{
+        background-color:darkorchid;
+        color: white;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .gg{
+        display: block;
+    }
+
+    .gg1{
+        background-color:crimson;
+    }
+}
+
+
+.kk{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:moccasin;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.kk div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color:olivedrab;
+}
+
+
+
+.hh{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 2s ;
+}
+
+.hh:hover{
+width: 300px;
+}
+
+.jj{
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+    animation: rao 2s infinite ;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+@keyframes rao{
+    0%{
+        transform: rotatez(0deg);
+    }
+
+    50%{
+        transform: rotatez(180deg) ;
+        background-color: chartreuse;
+        border-radius: 20px;
+    }
+
+    100%{
+        transform: rotatez(360deg);
+    }
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:chartreuse;
+    padding: 10px;
+    gap: 10px;
+  }
+  .item {
+    background-color:lightseagreen;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  
